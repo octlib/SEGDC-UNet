@@ -1,2 +1,1 @@
-# li
 SEGDC-UNet
