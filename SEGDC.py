@@ -208,11 +208,5 @@ class SEGDC_Unet(torch.nn.Module):
 
         conv11 = self.conv11(mresblock)
         return conv11
-if __name__ == '__main__':
-    dcaunet = DCA_Unet()
-    #print(dcaunet)
-def count_parameters(model):
-    return sum(p.numel() for p in model.parameters() if p.requires_grad)
-model = DCA_Unet()
-print("Number of parameters in DCA_Unet:", count_parameters(model))
 
+    
