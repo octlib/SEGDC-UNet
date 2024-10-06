@@ -4,3 +4,11 @@ Research on the SEGDC-UNet Electron Microscope Image Segmentation Algorithm Base
 
 
 The EMPS-Augmented dataset can be found at https://www.kaggle.com/datasets/liyue123/emps-augmented-pixel.
+dataset_EMPS_test.py ：It is the test set data, specifically a series of filenames in the `emps/test.csv` file. 
+
+The functionality of `test.py` is as follows: 
+1. Load the `best_model.pth.tar` model; 
+2. Load the test set data; 
+3. Run the model on all images in the test set and output the average Accuracy, Dice score, Recall, and IoU.
+4. The weight file and test dataset can be accessed at https://pan.baidu.com/s/1q4mRJUFz3OFk4V05Uf2X0A 
+提取码：hxld
