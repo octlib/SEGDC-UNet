@@ -12,4 +12,4 @@ The functionality of `test.py` is as follows:
 2. Load the test set data; 
 3. Run the model on all images in the test set and output the average Accuracy, Dice score, Recall, and IoU.
 4. The weight file and test dataset can be accessed at https://pan.baidu.com/s/1q4mRJUFz3OFk4V05Uf2X0A 
-提取码：hxld
+extract code：hxld
