@@ -13,3 +13,7 @@ The functionality of `test.py` is as follows:
 3. Run the model on all images in the test set and output the average Accuracy, Dice score, Recall, and IoU.
 4. The weight file and test dataset can be accessed at https://pan.baidu.com/s/1q4mRJUFz3OFk4V05Uf2X0A 
 extract code：hxld
+
+Acknowledgments
+We thank the contributors to the open-source projects that made this work possible, including PyTorch, and the EMPS dataset providers. Special thanks to the reviewers for their invaluable feedback.
+
