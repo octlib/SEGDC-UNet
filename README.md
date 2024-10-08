@@ -14,7 +14,7 @@ First, make sure to properly import the SEGDC_Unet model in main.py. Assuming th
 from models.SEGDC import SEGDC_Unet
 2. Set in_channels=1
 When initializing the model, you can set the in_channels parameter to 1 like this:
-# Set in_channels to 1 during model initialization
+Set in_channels to 1 during model initialization
 model = SEGDC_Unet(in_channels=1, out_channels=1)  # Adjust out_channels as needed
 
 
